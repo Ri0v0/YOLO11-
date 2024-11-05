@@ -1,0 +1,3 @@
+ultralytics==8.0.20  # YOLO 模型库
+opencv-python  # 图像处理基础库
+lxml  # XML 处理库
