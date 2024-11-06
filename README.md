@@ -4,7 +4,7 @@
 
 ## 文件说明
 
-- `11testYOLO.py`：主代码文件，用于加载模型、处理图像并生成检测结果。
+- `testYOLO11.py`：主代码文件，用于加载模型、处理图像并生成检测结果。
 - `requirements.txt`：项目的依赖项列表，确保所有必要的包都已安装。
 - `output/`：保存 XML 格式的检测结果的文件夹。
 - `yolo11.pt`：YOLO11 预训练模型文件。
@@ -26,7 +26,7 @@ pip install -r requirements.txt
    
 
    ```bash
-   python3 11testYOLO.py
+   python3 testYOLO11.py
    ```
 4. 代码将自动处理 test 文件夹中的所有图像文件，并将检测结果保存到 output/ 文件夹中，生成每个图像对应的 XML 文件。
    
