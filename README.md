@@ -16,6 +16,7 @@
 ```bash
 pip install -r requirements.txt
 ```
+注意：使用pip install -r requirements.txt安装依赖包时可能会报错 可使用pip语句逐条安装依赖包
 ## 使用说明
 
 1. **准备项目结构**：确保项目结构正确，并将模型文件 `yolo11.pt` 放在代码中指定的位置。
